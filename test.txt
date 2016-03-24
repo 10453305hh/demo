@@ -1,0 +1,106 @@
+代理：
+web-proxy.jpn.hp.com 8080
+web-proxy.houston.hp.com 8080
+
+其他代理：
+proxy.houston.hp.com 8080
+
+hp_peng.cheng3
+wordp@ss_1
+
+管理地址：   16.147.136.205
+http://16.147.136.204/vrev/acc/login/initLogin.html
+用户名：he
+密码：he123456
+
+项目访问地址：
+https://csvnchn-pro.chn.hp.com:18180/svn/basc_jp20141030_ring-document
+https://csvnaus-pro.austin.hp.com:18180/svn/basc_jp20141030_ring-document
+
+
+:pserver:hehui@16.147.136.207:/shared/gdcc_rvs
+cssc_new
+
+03BD\03.02設計書\V06\.....\VREV-SP-HN-0001-基本設計書_汎用ツリー構成表示編.doc
+这一部分的基本设计是上海的黄纯华写的
+还不太完善，需要改。你先看看
+
+他这一本参考的以前的 ring相关的基本设计书
+03BD\03.02設計書\V2\VREV-SP-HN-0011-01-基本設計書_画面設計編_リング編.doc
+
+其中有三个画面跟这里面的三个画面基本一样，只不过后台参考的db表不一样
+4.4 ビル一覧画面
+4.5地図表示画面
+4.6装置一覧画面
+
+
+旧的sourse 在 
+rvs.ring.web.presentation.ringview 
+rvs.ring.web.business.ringview
+rvs.ring.web.businesscontrol.ringview
+rvs.ring.web.conf.ringview
+rvs.ring.web.dao.ringview
+
+
+C:\SVN\basc_jp20141030_ring-document\02ddc\02PM\02.02Planning\V2
+DDC2015062450_VREV芯線情報可視化_Team Roster_V06.xls
+
+
+
+https://csvnchn-pro.chn.hp.com:18490/svn/basc_jp20141030_ring-houston/POI-Excel
+SvgBatch
+
+
+03BD\03.03画面イメージ\V2\画面サンプル_BD支援\SVGサンプル\svg
+
+详细设计：
+C:\SVN\basc_jp20141030_ring-document\02ddc\04DD\リング構成表示
+C:svn\04DD\リング構成表示 \BR_A01_002-005_構成図描画_ESNOSS.xlsx
+
+
+静态画面：03BD\03.03画面イメージ\V2\画面サンプル_BD支援\SVGサンプル\svg
+
+
+C:\var\rvs\share\common\conf\sql\ring\web\ringview
+
+file:///C:/BASC_JP20141030_RING/03BD/03.01DB/V2/dbdocs/index.html
+
+
+最大表示件数は200件とし、201件以上の場合、ページングを実施する。
+最大表示件数は設定ファイルにて定義可能。
+ファイル: /var/rvs/share/tree/conf/tree_search.conf
+パラメータ: DEV_SEARCH_MAX_CNT (デフォル値:200) 
+
+测试书：
+リング検索和装置一览吧
+svn\05UT\V2\Report\V06
+
+
+
+\06IT\V2\V06\【VREV結合試験仕様書】_メインメニュー_R00.xls 
+加了一个mainmenu的evidence用的folder
+06IT\V2\V06\Evidence\メインメニュー 
+
+VREV結合試験仕様書】_地図表示.xls  也分给你测吧
+
+
+分布式、集群、负载均衡
+
+128
+
+
+http://16.147.136.204/vrev/acc/menu/doInitTreeChartDisplay.html
+
+
+git init
+git add   (这一步是必须的)
+git commit
+git branch dev
+git branch test
+
+
+
+
+
+
+
